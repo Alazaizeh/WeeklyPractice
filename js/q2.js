@@ -6,16 +6,16 @@ num3= prompt("Enter Third Number:");
 
 if(num1>num2 && num1>num3)
 {
-    alert(num1);
-    document.write("<h1>"+num1+"</h1>");
+    console.log("Max number is "+num1)
+    document.write("<h1>Max number is "+num1+"</h1>");
 }
 else if(num2>num1 && num2>num3)
 {
-    alert(num2);
-    document.write("<h1>"+num2+"</h1>");
+    console.log("Max number is "+num2)
+    document.write("<h1>Max number is "+num2+"</h1>");
 }
 else if(num3>num1 && num3>num2)
 {
-    alert(num3);
-    document.write("<h1>"+num3+"</h1>");
+    console.log("Max number is "+num2)
+    document.write("<h1>Max number is "+num3+"</h1>");
 }
