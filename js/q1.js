@@ -1,7 +1,7 @@
-var num=prompt("Enter a Number :");
+var num=prompt("Enter any Number :");
 if(num>=0){
-    alert("Number is +");
+    alert("This Number is +");
 }
 else{
-    alert("Number is -");
+    alert("This Number is -");
 }
