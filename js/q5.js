@@ -1,6 +1,6 @@
 alert("Please Enter Two Numbers !")
-var num1= prompt("Enter First Number:");
-var num2= prompt("Enter Second Number:");
+var num1= Number( prompt("Enter First Number:"));
+var num2= Number(prompt("Enter Second Number:"));
 var sum=num1+num2;
 var multiplication=num1*num2;
 
