@@ -1,8 +1,8 @@
 
 alert("Please Enter Three Numbers !")
-num1= prompt("Enter First Number:");
-num2= prompt("Enter Second Number:");
-num3= prompt("Enter Third Number:");
+var num1= prompt("Enter First Number:");
+var num2= prompt("Enter Second Number:");
+var num3= prompt("Enter Third Number:");
 
 
 
