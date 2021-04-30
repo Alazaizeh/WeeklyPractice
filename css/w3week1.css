@@ -1,0 +1,358 @@
+body {
+  background-color: black;
+}
+.navi {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding: 8px 16px 8px 0;
+}
+.navi li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navi li a:hover {
+  background-color: white;
+  color: black;
+}
+.navi li:nth-child(6) {
+  position: relative;
+  display: inline-block;
+}
+
+.navi li:nth-child(6) a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+}
+
+.dropdown-menu a {
+  display: block;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navi li:last-child a {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.navi li:last-child a:hover {
+  background-color: #009688;
+  color: black;
+}
+.navi li:nth-child(1) a {
+  background-color: #009688;
+  color: white;
+}
+.navi li:nth-child(1) a:hover {
+  background-color: gray;
+  color: black;
+}
+.navi li a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.first-img {
+  width: 100%;
+  height: 600px;
+}
+
+.dropdown {
+  display: block;
+}
+
+.team {
+  background-color: white;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+.our-work {
+  background-color: rgb(59, 59, 59);
+  width: 100%;
+  height: 600px;
+}
+.pricing {
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+
+.contact {
+  background-color: #eee;
+  width: 100%;
+  height: 400px;
+}
+
+.sec-img {
+  width: 100%;
+}
+
+.followus {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.followus ul li {
+  font-size: 24px;
+  display: inline-block;
+
+  margin: 0;
+}
+.followus ul li a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #009688;
+}
+.followus ul li a:hover {
+  color: black;
+  background-color: gray;
+}
+.followus p {
+  color: white;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.followus h3 {
+  display: block;
+  color: white;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.followus h3 a {
+  text-decoration: underline;
+  color: white;
+}
+
+.team p {
+  color: black;
+  font-size: 32px;
+  padding: 100px 0 20px;
+}
+.team h3 {
+  display: block;
+  color: black;
+  font-size: 18px;
+}
+
+.team ul li {
+  display: inline-block;
+  padding: 10px 5%;
+}
+.team ul li img {
+  display: inline-block;
+  width: 225px;
+  border-radius: 50%;
+}
+.team ul li img:hover {
+  opacity: 0.5;
+}
+
+.team ul li p {
+  color: black;
+  font-size: 32px;
+  padding: 20px 0;
+}
+.team ul li h3 {
+  display: block;
+  color: black;
+  font-size: 18px;
+}
+
+.our-work {
+  padding: 40px 0;
+}
+.inside-work {
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+  background-color: white;
+  width: 23%;
+  height: 100%;
+}
+.inside-work img {
+  width: 100%;
+}
+.inside-work ul li {
+  font-size: 20px;
+  margin: 15px;
+}
+.inside-work h2 {
+  font-size: 25px;
+  margin: 15px;
+}
+.inside-work h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.inside-work:first-child {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  margin-left: 20px;
+}
+.inside-work:first-child p {
+  font-size: 24px;
+}
+
+.pricing div {
+  display: inline-block;
+  background-color: white;
+
+  width: 30%;
+  height: 70%;
+  border: #eee solid 1px;
+}
+
+.pricing div:hover {
+  box-shadow: #888 2px 2px 15px;
+}
+.pricing p {
+  color: black;
+  font-size: 32px;
+  padding: 100px 0 20px;
+}
+
+.pricing h3 {
+  display: block;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 33px;
+}
+
+.pricing div h1 {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 30px 0;
+  width: 100%;
+  font-size: 32px;
+}
+
+input[type="button"] {
+  background-color: #009688;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  margin: 0 0;
+  padding: 5px;
+  transform: translate(-50%, 50%);
+  top: 50px;
+}
+input[type="button"]:hover {
+  color: black;
+  background-color: gray;
+}
+
+.pricing div ul li h2 {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid #eee 1px;
+  padding: 20px 0;
+}
+
+.plans {
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 0%;
+}
+.plans h4 {
+  margin: 24px 0 0;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: white;
+}
+.plans h5 {
+  margin: 10px 0 0;
+  color: rgb(185, 177, 177);
+  background-color: white;
+}
+
+.butto {
+  position: relative;
+  display: block;
+  background-color: red;
+  width: 100%;
+}
+
+.contact div {
+  padding: 20px;
+  display: inline-block;
+  float: left;
+  width: 46%;
+}
+
+.contact div h2 {
+  text-decoration: underline #009688 5px;
+  font-size: 28px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.contact div h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.contact div h4 {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.contact div form {
+  padding: 20px;
+  box-shadow: 2px 2px 20px gray;
+
+  background-color: white;
+}
+.contact div form input[type="text"],
+.contact div form input[type="email"] {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 99%;
+  padding-bottom: 20px;
+}
+.contact div form input[type="checkbox"] {
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+}
+.contact div form {
+  padding: 10px 15px;
+}
+.contact div form label {
+  display: inline-block;
+
+  margin-top: 10px;
+}
+
+.contact div form button {
+  margin: 0 0 4px 90%;
+  color: white;
+  padding: 10px 14px;
+  background-color: black;
+}
+
+.moveup {
+  margin-left: 90%;
+  width: 25px;
+}

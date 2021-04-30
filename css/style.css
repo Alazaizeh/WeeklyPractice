@@ -1,0 +1,25 @@
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: blueviolet;
+  padding: 20px 20px 20px 10px;
+}
+h2 {
+  color: red;
+}
+h3 {
+  color: green;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+ul li {
+  font-size: 40px;
+  color: crimson;
+  display: inline-block;
+  padding: 20px 20px 20px 10px;
+}
+u {
+  list-style-type: none;
+}
