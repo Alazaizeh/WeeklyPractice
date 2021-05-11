@@ -171,7 +171,7 @@ hr {
   margin-top: 75px;
   font-size: 32px;
 }
-.imgs div {
+/* .imgs div {
   display: inline-block;
   margin-left: 48px;
   margin-bottom: 8px;
@@ -182,30 +182,7 @@ hr {
   transition: 500ms;
 }
 
-.imgs #img1 {
-  background-image: url("../imgs/gallery-item-01.jpg");
-}
-.imgs #img1 div {
-  display: inline-block;
-  min-width: 100%;
-}
-.imgs #img2 {
-  background-image: url("../imgs/gallery-item-02.jpg");
-}
-.imgs #img3 {
-  background-image: url("../imgs/gallery-item-03.jpg");
-}
-.imgs #img4 {
-  background-image: url("../imgs/gallery-item-04.jpg");
-}
-.imgs img {
-  opacity: 0;
-  transition: 300ms;
-}
-.imgs img:hover {
-  opacity: 0.5;
-  transition: 300ms;
-}
+*/
 
 footer p {
   display: block;
@@ -229,4 +206,33 @@ footer p {
 .buttons button:hover {
   cursor: pointer;
   background-color: #c99;
+}
+
+.imgs div {
+  display: inline-block;
+  margin-left: 48px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.overlay {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  position: absolute !important;
+  top: 0px;
+  left: -48px;
+  opacity: 0;
+  color: white;
+  border-bottom: 8px solid rgba(0, 153, 255, 1);
+  padding: 140px 40px 20px;
+  transition: 500ms;
+}
+.overlay span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+.imgs .all-imgs:hover .overlay {
+  opacity: 0.6;
 }
