@@ -145,8 +145,10 @@ hr {
   font-size: 16px;
   border: none;
   float: right;
+  z-index: 100;
 }
 .gols div section button:hover {
+  cursor: pointer;
   background-color: rgb(151, 99, 99);
   transition: 300ms;
 }
@@ -157,7 +159,6 @@ hr {
   font-size: 48px;
 }
 .sub-title {
-  position: relative;
   margin: 0 24px 48px;
   width: 100%;
 }
