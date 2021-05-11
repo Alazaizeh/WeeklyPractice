@@ -6,7 +6,7 @@ html {
 }
 body {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   background-color: white;
 }
 .main-post {
@@ -174,24 +174,29 @@ hr {
 .imgs div {
   display: inline-block;
   margin-left: 48px;
-
-  border-bottom: 8px solid rgba(0, 0, 0, 0);
+  margin-bottom: 8px;
 }
+.imgs div:hover {
+  margin-bottom: 0px;
+  border-bottom: 8px solid rgba(0, 153, 255, 1);
+  transition: 500ms;
+}
+
 .imgs #img1 {
-  background-image: url("../pages/random/gallery-item-01.jpg");
+  background-image: url("../imgs/gallery-item-01.jpg");
 }
 .imgs #img1 div {
   display: inline-block;
   min-width: 100%;
 }
 .imgs #img2 {
-  background-image: url("../pages/random/gallery-item-02.jpg");
+  background-image: url("../imgs/gallery-item-02.jpg");
 }
 .imgs #img3 {
-  background-image: url("../pages/random/gallery-item-03.jpg");
+  background-image: url("../imgs/gallery-item-03.jpg");
 }
 .imgs #img4 {
-  background-image: url("../pages/random/gallery-item-04.jpg");
+  background-image: url("../imgs/gallery-item-04.jpg");
 }
 .imgs img {
   opacity: 0;
@@ -200,9 +205,6 @@ hr {
 .imgs img:hover {
   opacity: 0.5;
   transition: 300ms;
-}
-.imgs div:hover {
-  border-color: #09f;
 }
 
 footer p {
