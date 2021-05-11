@@ -90,6 +90,7 @@ body {
 .nav-bar ul li {
   display: inline-block;
   padding: 30px;
+  color: #b9bbbd;
 }
 .nav-bar ul li:hover {
   border-bottom: #09f solid 4px;
@@ -99,7 +100,7 @@ body {
 .nav-bar ul li a {
   display: inline-block;
   text-decoration: inherit;
-  color: #6c757d;
+  color: inherit;
 }
 .nav-bar ul li:first-child {
   border-bottom: #09f solid 4px;
